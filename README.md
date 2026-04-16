@@ -10,10 +10,14 @@ This project makes it easy to setup n8n locally in a container and to persist th
 
 Using these tools means running an LLM and agentic system locally for free at no cost, without needing an API key or sending your requests to an AI provider.
 
-
 ### Why in a container?
 
-This limits the potential damage which an agentic system such as accessing credentials or your personal files. Hackers put triggers in websites so that when agents read them they execute the instructions and send your sensitive info to a
+Sandboxing n8n in a container means it limits the potential damage which an agentic system can do, such as:
+
+- accessing credentials or your personal files. Hackers put triggers in websites so that when agents read them they execute the instructions and send your sensitive info to a provider.
+- deleting or changing your fails.
+
+Plus this container setup is portable and can be deployed easily.
 
 
 ## Prerequisites
