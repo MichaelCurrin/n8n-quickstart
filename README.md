@@ -1,6 +1,8 @@
 # n8n Quickstart
 > Setup n8n locally in a Docker container
 
+This project makes it easy to setup n8n locally in a container and to persist the data outside the container.
+
 See [n8n](https://n8n.io/) website for more info.
 
 
