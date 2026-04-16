@@ -1,9 +1,19 @@
 # n8n Quickstart
 > Setup n8n locally in a Docker container
 
-This project makes it easy to setup n8n locally in a container and to persist the data outside the container.
+This project makes it easy to setup n8n locally in a container and to persist the data outside the container. See [n8n](https://n8n.io/) website for more info.
 
-See [n8n](https://n8n.io/) website for more info.
+
+## Motivation
+
+### Why Ollama and n8n?
+
+Using these tools means running an LLM and agentic system locally for free at no cost, without needing an API key or sending your requests to an AI provider.
+
+
+### Why in a container?
+
+This limits the potential damage which an agentic system such as accessing credentials or your personal files. Hackers put triggers in websites so that when agents read them they execute the instructions and send your sensitive info to a
 
 
 ## Prerequisites
